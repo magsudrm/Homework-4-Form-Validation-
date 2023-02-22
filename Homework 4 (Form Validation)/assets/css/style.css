@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    
+    box-shadow: inset #abacaf 0 0 0 2px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    appearance: none;
+    width: 100%;
+    position: relative;
+    border-radius: 3px;
+    padding: 9px 12px;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    transition: all .2s ease;
+    margin-bottom: 1rem;
+}
+input:hover{
+        box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 2px;
+}
+input:focus{
+        background: #fff;
+        outline: 0;
+        box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 3px;
+}
+
+button{
+    
+    display: inline-block;
+    outline: 0;
+    border:0;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    background: #fff;
+    line-height: 30px;
+    border-radius: 40px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: rgb(255, 198, 0) -2px -2px 0px 2px, rgb(246, 84, 174) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transition: all 0.2s;
+}
+button:hover{
+        box-shadow: rgb(246, 84, 174) -2px -2px 0px 2px, rgb(255, 198, 0) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+        transform: scale(1.01);
+}
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .container {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  #message2 {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message2 p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+  }
